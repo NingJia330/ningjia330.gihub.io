@@ -2,15 +2,75 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+}
+
 header {
-    width: 100%;
+    display: flex;
+    margin: 16px;
+}
+
+header h1 {
+    font-size: 1.5em;
+    margin: 0;
     font-weight: bold;
 }
 
-article {
-    color: red;
+#nameSection{
+    width: 100%;
+    text-align: center;
 }
 
-h1 {
+#contactSection {
+    text-justify: right;
+    font-style: italic;
+    margin-left: auto;
+}
 
+#contactSection a {
+    text-decoration: none;
+}
+
+article {
+}
+
+.sectionHeader {
+    color: rgb(55, 132, 158);
+    border-bottom: 1px dotted rgb(55, 132, 158);
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.sectionBody {
+    max-width: 700px;
+    font-size: .9em;
+    margin: 3px 15px 15px 0;
+}
+
+.places {
+    list-style-type: none;
+}
+
+.lister {
+    display: flex;
+}
+
+.lister .years {
+    margin-left: auto;
+}
+
+.experiences li {
+    list-style-type: disc;
+}
+
+#experience .places {
+    margin-bottom: 10px;
+}
+
+.years {
+    font-style: italic;
+}
+
+.experiences {
+    margin-top: 3px;
 }
